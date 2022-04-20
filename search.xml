@@ -7,4 +7,20 @@
 <h2 id="website-test1"><a href="#website-test1" class="headerlink" title="website test1"></a>website test1</h2><h2 id="website-test2"><a href="#website-test2" class="headerlink" title="website test2"></a>website test2</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">function</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
+  <entry>
+    <title>hello world</title>
+    <url>/1970/01/01/test2/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="aa2f1897e6c8e4247c4a976a9b20b622cd832fe347b3fd4f4963b033dc1f7d8d">901b05b71b6ef9410c890050abab0ca5c0502d173ecd0069c424e6f2aa6dd33e5761a03ec3ecabf3488ebae58c1fbf5bb3f655612088a96e1853da4d19927a6159828db1fe0bb812a469cef845f88d869f2368095351055895553ac1857005a9d1ca37f8a68d90c9671fa4d27732e7b8f250bd237ad83bf6c593bbf3978420546c123892b2970b3a71935387c99d47d6880eb22a95f98139cdb61e5e1e05e7b51149380e60702fbb5e62804fe2f79c573289ca58f1ade5beed25c246c84cd8ec572944ce88ec00c800026f7b71126adb58df9ab2b9ce78b4f26943a2bfb391823d4094c021ec945baf96fbe0b9cf0f03e6c929a18af6b9e93ad4228997f4f4be817f8815f3cf5706de068cd43ac9b6db4436f4fc5e4dc171f9673b4a2cf3b9d35b71f763edc2b04a866ec3702e4df8004d866935cff1e5a1369f87a9bfbd26a7c90f952a52b9a60e773783a1941d1dad900c4d7de53292da703b575cb8a30a70da89bf722c17e1fd1fcc8e2d5f5a9d90e154147f9d4ca22b97b05e0cf6a39a42bd66eb2405acaaf9ffca5b6468a16f5966f977a534d34a45191385e17e8dbd0b9ec3a8cdd324ef87ffad82f13a55f5658a7436542e65ade24312c37e0aee07280b8d303f3599505988b78cbc44bbd20a76e186cf53c4212df0c09463714603fc59ecff34395a0856446174ac4543e798085dfdc238c4986de6e0997c8436d231eae583fc6babc924ffea6ca655a24d868aefdbe9372618633847da2b9a26e776b6111b3162dc2a7455dd341862ebb4a936435f303800de5fd299bd28e257b5afaf453c3088e52ae7026d7932489e9078558379383c4723021b0a61d42533156aafd00fbd4a69cca6cd9c7e7dcc82ba14fae759df1169729763c470fd665337351f86cca649dd5e9c6649ceec992eae0ac6a405676f7219cee72c2ac97776188a</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
 </search>
