@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>pip成功import失败why</title>
-    <url>/2022/04/26/002_pip%E6%88%90%E5%8A%9Fimport%E5%A4%B1%E8%B4%A5why/</url>
-    <content><![CDATA[<p>pip成功，import失败是比较郁闷的一件事。<br>1.检查python的安装路径，一般是tensorflow框架下的路径冲突问题</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;sys.executable&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>2.在对应的路径下pip install对应的模块</p>
-]]></content>
-      <tags>
-        <tag>障碍</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Test</title>
     <url>/2022/04/20/001_test/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码输入错误" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容">
@@ -26,6 +15,17 @@
   </div>
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
+    <title>pip成功import失败why</title>
+    <url>/2022/04/26/002_pip%E6%88%90%E5%8A%9Fimport%E5%A4%B1%E8%B4%A5why/</url>
+    <content><![CDATA[<p>pip成功，import失败是比较郁闷的一件事。<br>1.检查python的安装路径，一般是tensorflow框架下的路径冲突问题</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;sys.executable&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>2.在对应的路径下pip install对应的模块</p>
+]]></content>
+      <tags>
+        <tag>障碍</tag>
+      </tags>
   </entry>
   <entry>
     <title></title>
