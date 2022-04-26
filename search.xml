@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>pip成功import失败why</title>
+    <url>/2022/04/26/002_pip%E6%88%90%E5%8A%9Fimport%E5%A4%B1%E8%B4%A5why/</url>
+    <content><![CDATA[<p>pip成功，import失败是比较郁闷的一件事。<br>1.检查python的安装路径，一般是tensorflow框架下的路径冲突问题</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;sys.executable&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<p>2.在对应的路径下pip install对应的模块</p>
+]]></content>
+      <tags>
+        <tag>障碍</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Test</title>
     <url>/2022/04/20/001_test/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码输入错误" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容">
@@ -17,17 +28,6 @@
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
-    <title>pip成功import失败why</title>
-    <url>/2022/04/26/002_pip%E6%88%90%E5%8A%9Fimport%E5%A4%B1%E8%B4%A5why/</url>
-    <content><![CDATA[<p>pip成功，import失败是比较郁闷的一件事。<br>1.检查python的安装路径，一般是tensorflow框架下的路径冲突问题</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;sys.executable&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<p>2.在对应的路径下pip install对应的模块</p>
-]]></content>
-      <tags>
-        <tag>障碍</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>预测结果对比(论文绘图)</title>
     <url>/2022/04/26/003_%E9%A2%84%E6%B5%8B%E7%BB%93%E6%9E%9C%E5%AF%B9%E6%AF%94(%E8%AE%BA%E6%96%87%E7%BB%98%E5%9B%BE)/</url>
     <content><![CDATA[<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">clc,clear;</span><br><span class="line">data_2009=readmatrix(<span class="string">&#x27;C:\Users\Jone\Desktop\2009预测值和真实值.csv&#x27;</span>);</span><br><span class="line">data_2010=readmatrix(<span class="string">&#x27;C:\Users\Jone\Desktop\2010预测值和真实值.csv&#x27;</span>);</span><br><span class="line">data_2009=data_2009(<span class="number">2</span>:<span class="number">366</span>,:);</span><br></pre></td></tr></table></figure>
@@ -39,6 +39,20 @@
 ]]></content>
       <tags>
         <tag>科研技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>问卷结果信度效度分析</title>
+    <url>/2022/04/25/004_%E9%97%AE%E5%8D%B7%E7%BB%93%E6%9E%9C%E4%BF%A1%E5%BA%A6%E6%95%88%E5%BA%A6%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<h2 id="数据介绍"><a href="#数据介绍" class="headerlink" title="数据介绍"></a>数据介绍</h2><p>针对6个问题分别进行信效度分析，1，2，3，4，5分别表示对应问题评价得分，针对问卷内容的评分分布进行效度度分析。</p>
+<span id="more"></span>
+<p><img src="/images/004_-f355c88c.png"></p>
+<h2 id="数据属性查看"><a href="#数据属性查看" class="headerlink" title="数据属性查看"></a>数据属性查看</h2><p><img src="/images/004_-715ab9d0.png"></p>
+<h2 id="信度分析"><a href="#信度分析" class="headerlink" title="信度分析"></a>信度分析</h2><p>信度为图中的克隆巴赫Alpha&#x3D;0.602<br><img src="/images/004_-6db145a7.png"><br><img src="/images/004_-74068bdd.png"></p>
+<h2 id="效度分析"><a href="#效度分析" class="headerlink" title="效度分析"></a>效度分析</h2><p>效度为图中的KMO&#x3D;0.715<br><img src="/images/004_-57ef0fae.png"><br><img src="/images/004_-53b9eaf8.png"><br><img src="/images/004_-ef684882.png"></p>
+]]></content>
+      <tags>
+        <tag>统计</tag>
       </tags>
   </entry>
 </search>
