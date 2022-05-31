@@ -109,4 +109,13 @@
     <content><![CDATA[<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line">df=pd.read_csv(<span class="string">r&#x27;C:\Users\Jone\Desktop\dataset123.csv&#x27;</span>,encoding=<span class="string">&#x27;gbk&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#转成时间序列格式</span></span><br><span class="line">df[<span class="string">&#x27;日期&#x27;</span>] = pd.to_datetime(df[<span class="string">&#x27;日期&#x27;</span>])   </span><br><span class="line"></span><br><span class="line"><span class="comment">#strftime()实现将日期按要求格式化</span></span><br><span class="line"><span class="comment">#apply方法批量处理dataframe数据格式+匿名函数</span></span><br><span class="line"><span class="comment">#dt方法是pandas的一个高级接口，返回日期年月日</span></span><br><span class="line">df[<span class="string">&#x27;年月日&#x27;</span>] = df[<span class="string">&#x27;日期&#x27;</span>].apply(<span class="keyword">lambda</span> x: x.strftime(<span class="string">&#x27;%Y%m%d&#x27;</span>))</span><br><span class="line">df[<span class="string">&#x27;年&#x27;</span>]=df[<span class="string">&#x27;日期&#x27;</span>].dt.year  </span><br><span class="line">df[<span class="string">&#x27;月&#x27;</span>]=df[<span class="string">&#x27;日期&#x27;</span>].dt.month</span><br><span class="line">df[<span class="string">&#x27;日&#x27;</span>]=df[<span class="string">&#x27;日期&#x27;</span>].dt.day   </span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
+  <entry>
+    <title></title>
+    <url>/2022/04/24/pdf01/</url>
+    <content><![CDATA[<embed src="./010_pdf.pdf" width="100%" height="750" type="application/pdf">
+
+
+
+]]></content>
+  </entry>
 </search>
